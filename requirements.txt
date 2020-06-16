@@ -1,0 +1,4 @@
+beautifulsoup4>=4.9.1
+jupyterlab>=2.1.4
+nbstripout>=0.3.8
+requests>=2.23.0
