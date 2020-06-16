@@ -1,7 +1,11 @@
 # PyRVA Coding Night Exercises
-Repository of Coding Challenges at Monthly Coding Meetings
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyrva/coding_night/master)
+Welcome to the PyRVA coding night repository. Coding night is a monthly gathering where we challenge our members to work through some exercises. Some nights we will play with existing challenge sites on the web, while other meetings will have custom generated content.
+
+The custom generated content will rely on [Jupyter Notebooks](https://jupyter.org/) located in the source code above. The brilliant minds behind [Binder](https://mybinder.org) make it really easy for you to get started with our exercises. You can click this badge [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyrva/coding_night/master) and have access to an environment with all the dependencies you'll need already installed. For a specific meeting, click the link in the table below to go straight to the challenge.
+
+Check us out on [Meetup](https://www.meetup.com/PyRVAUserGroup/) to see when the next meeting is scheduled. **Due to current events, we are hosting virutal meetings on [Discord](https://discord.com/). Invite links will be posted on Meetup.**
+
 
 # Code Night History
 
@@ -17,6 +21,8 @@ Date | Topic | Link
 
 # Notes for Contributors
 
+[nbstripout](https://pypi.org/project/nbstripout/) should be used to keep git commits small and manageable. This automatically cleans the output and run counts from the notebook before committing to the repository. The commands below will help you get your environment setup and ready for development.
+
 Create the environment
 
     python -m venv venv
@@ -24,8 +30,8 @@ Create the environment
 
 Activate your environment
 
-    > venv\Scripts\activate  # Windows
-    $ source venv/bin/activate  # Linux/Mac
+    win> venv\Scripts\activate
+    nix$ source venv/bin/activate
 
 Ensure notebook output and run counts are stripped before committing
     
