@@ -2,7 +2,7 @@
 
 Welcome to the PyRVA coding night repository. Coding night is a monthly gathering where we challenge our members to work through some exercises. Some nights we will play with existing challenge sites on the web, while other meetings will have custom generated content.
 
-The custom generated content will rely on [Jupyter Notebooks](https://jupyter.org/) located in the source code above. The brilliant minds behind [Binder](https://mybinder.org) make it really easy for you to get started with our exercises. You can click this badge [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyrva/coding_night/master) and have access to an environment with all the dependencies you'll need already installed. For a specific meeting, click the link in the table below to go straight to the challenge. You will be able to download a copy of your notebook at the end of the session.
+The custom generated content will rely on [Jupyter Notebooks](https://jupyter.org/) located in the source code above. The brilliant minds behind [Binder](https://mybinder.org) make it really easy for you to get started with our exercises. You can click this badge [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyrva/coding-night/master) and have access to an environment with all the dependencies you'll need already installed. For a specific meeting, click the link in the table below to go straight to the challenge. You will be able to download a copy of your notebook at the end of the session.
 
 >***Please note that the environment will timeout after 10 minutes of activity.*** 
 
@@ -13,7 +13,7 @@ Check us out on [Meetup](https://www.meetup.com/PyRVAUserGroup/) to see when the
 
 Date | Topic | Link
 ---|---|---
-2020-06-25 | Web Scraping | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyrva/coding_night/master?filepath=2020-06-25/Challenge.ipynb)
+2020-06-25 | Web Scraping | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyrva/coding-night/master?filepath=2020-06-25/Challenge.ipynb)
 2020-05-28 | Python Challenge | http://www.pythonchallenge.com
 2020-04-23 | Python Morsels | https://www.pythonmorsels.com/
 2020-03-26 | py.checkio.org | https://py.checkio.org/
