@@ -17,6 +17,7 @@ def setup():
     for page in tqdm(range(1, 11)):
         response = requests.get(f'{BASE_URL}/catalogue/page-{page}.html')
         soup = BeautifulSoup(response.content, 'html.parser')
+        Path.cwd().joinpath('file.txt').write_text('Where did I come from?')
         books.extend(soup.select('article.product_pod'))
 
     data = [
@@ -37,3 +38,31 @@ def setup():
         with open(image_dir / Path(pth).name, 'wb') as f:
             for chunk in requests.get(f'{BASE_URL}{pth}'):
                 f.write(chunk)
+
+    
+def cleanup():
+    def rmdir(top: Path):
+        for file in top.iterdir():
+            if file.is_file():
+                file.unlink()
+            elif file.is_dir():
+                rmdir(file)
+        top.rmdir()
+            
+    for pth in [
+        Path() / 'books',
+        Path() / '../new',
+    ]:
+        if pth.exists():
+            rmdir(pth)
+            
+    for file in [
+        (Path() / '../example.txt'),
+        (Path() / 'file.txt'),
+    ]:
+        if file.exists():
+            file.unlink()
+
+
+if __name__ == '__main__':
+    cleanup()
