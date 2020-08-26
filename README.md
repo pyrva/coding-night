@@ -13,6 +13,7 @@ Check us out on [Meetup](https://www.meetup.com/PyRVAUserGroup/) to see when the
 
 Date | Topic | Link
 ---|---|---
+2020-08-27 | Refactoring and Testing | [emilybache/gildedrose-refactoring-kata](github.com/emilybache/gildedrose-refactoring-kata)
 2020-07-23 | pathlib | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyrva/coding-night/master?filepath=pathlib/Challenge.ipynb)
 2020-06-25 | Web Scraping | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyrva/coding-night/master?filepath=web-scraping-intro/Challenge.ipynb)
 2020-05-28 | Python Challenge | http://www.pythonchallenge.com
