@@ -13,8 +13,7 @@ Check us out on [Meetup](https://www.meetup.com/PyRVAUserGroup/) to see when the
 
 Date | Topic | Link
 ---|---|---
-2020-11-19 | Numpy 100 | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rougier/numpy-100/HEAD?master=100_Numpy_exercises.ipynb
-)
+2020-11-19 | Numpy 100 | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rougier/numpy-100/master?filepath=100_Numpy_exercises.ipynb)
 2020-10-22 | 100 Pandas Puzzles | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcr/100-pandas-puzzles/master?filepath=100-pandas-puzzles.ipynb)
 2020-08-27 | Refactoring and Testing | [emilybache/gildedrose-refactoring-kata](github.com/emilybache/gildedrose-refactoring-kata)
 2020-07-23 | pathlib | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyrva/coding-night/master?filepath=pathlib/Challenge.ipynb)
