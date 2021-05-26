@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastAPI Demo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 90vh;
+        }
+
+        .form-input,
+        .result {
+            display: flex;
+            justify-content: space-between;
+            gap: 1em;
+            padding: 0.25em 0;
+        }
+
+        .answer {
+            font-weight: bolder;
+        }
+
+        .container,
+        .btn {
+            border: 1px solid #c4c4c4;
+            border-radius: 1em;
+            padding: .5em 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Enter a Measurement</h1>
+        <form action="/">
+
+            <div class="form-input">
+                <label for="measurement">Distance</label>
+                <input type="text" name="measurement" {% if measurement %}value="{{ measurement }}" {% endif %} />
+            </div>
+
+            <div class="form-input">
+                <label for="param">Radius</label>
+                <input type="radio" name="param" value="radius" {% if param=="radius" or param==None %}checked="checked"
+                    {% endif %} />
+            </div>
+            <div class="form-input">
+                <label for="param">Diameter</label>
+                <input type="radio" name="param" value="diameter" {% if param=="diameter" %}checked="checked" {% endif
+                    %} />
+            </div>
+
+            <div class="form-input">
+                <span></span>
+                <input class="btn" type="submit" value="Calculate" />
+            </div>
+        </form>
+
+        {% if area %}
+        <div class="result">
+            The area of a circle with radius {{ radius }} is
+            <span class="answer">{{ "%.2f"|format(area) }}</span>
+        </div>
+        {% endif %}
+
+        {% if circumference %}
+        <div class="result">
+            The circumference of a circle with radius {{ radius }} is
+            <span class="answer">{{ "%.2f"|format(circumference) }}</span>
+        </div>
+        {% endif %}
+    </div>
+
+</body>
+
+</html>
