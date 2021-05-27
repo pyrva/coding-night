@@ -22,9 +22,17 @@ The goal is to learn how to use FastAPI to accept data, perform a calculation, a
 
 For reference, the formulas for area and circumference area as follows:
 
-$$A = \pi r^2 = \frac{\pi}{4} d^2$$
-$$C = 2 \pi r = \pi d$$
-$$d = 2 r$$
+```python
+from math import pi
+
+diameter = 2 * radius
+
+area = pi * radius ** 2
+area = (pi / 4) * diameter ** 2
+
+circumference = 2 * pi * radius
+circumference = pi * diameter
+```
 
 ## Skill Levels
 
@@ -37,7 +45,7 @@ Take a look at `app.py`, `templates/index.html`, and `test_app.py` and browse th
 Copy `requirements.txt`, `start.py`, `templates/index.html`, and `test_app.py` to your directory. Install the required packages. Work through the problems as best as you can and use pytest to make sure you're on the right track. Use `templates/index.html` to help figure out what you need for challenge item 3.
 
 **Junior:**
-Copy `requirements.txt`, `start.py`, and `test_app.py` to your directory.Install the required packages. Work through the problems as best as you can and use pytest to make sure you're on the right track. Fill out `start.py` and write `templates/index.html` to complete the challenge.
+Copy `requirements.txt`, `start.py`, and `test_app.py` to your directory. Install the required packages. Work through the problems as best as you can and use pytest to make sure you're on the right track. Fill out `start.py` and write `templates/index.html` to complete the challenge.
 
 **Senior:**
 Copy `start.py` to your directory. Figure out what packages you need to install and work through the problems as best as you can. Fill out `start.py` and write `templates/index.html` to complete the challenge. Write tests in `test_app.py` as you go.
