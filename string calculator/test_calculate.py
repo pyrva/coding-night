@@ -26,3 +26,9 @@ def test_it_handles_n_amount_of_numbers():
 
     assert isinstance(result, int)
     assert checksum == result
+
+def test_it_handles_newline_seperations_and_commas():
+    user_input = "1\n2,3"
+    result = calculate(user_input)
+
+    assert result == 6
