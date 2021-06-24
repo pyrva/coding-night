@@ -1,2 +1,4 @@
 def calculate(data: str) -> float:
-    pass
+    inputs = data.split(",")
+    cast_inputs = [int(i) for i in inputs]
+    return sum(cast_inputs)
