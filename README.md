@@ -13,6 +13,7 @@ Check us out on [Meetup](https://www.meetup.com/PyRVAUserGroup/) to see when the
 
 Date | Topic | Link
 ---|---|---
+2021-06-24 | String Calculator | Go to the `string calculator` folder in this repo.
 2021-05-27 | FastAPI | Go to the `fastapi` folder in this repo.
 2021-04-22 | Coin Drawer Kata | Go to `Coin Drawer Kata` in this repo.
 2020-11-19 | Numpy 100 | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rougier/numpy-100/master?filepath=100_Numpy_exercises.ipynb)
