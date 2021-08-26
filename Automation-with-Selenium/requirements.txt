@@ -1,0 +1,2 @@
+get_gecko_driver>=1.3.1
+selenium>=3.141.0
