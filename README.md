@@ -13,6 +13,7 @@ Check us out on [Meetup](https://www.meetup.com/PyRVAUserGroup/) to see when the
 
 Date | Topic | Link
 ---|---|---
+2021-10-28 | Create a Gooey GUI | Go to the `gooey-gui` folder in this repo.
 2021-08-26 | Automation with Selenium | Go to the `Automation-with-Selenium` folder in this repo.
 2021-06-24 | String Calculator | Go to the `string calculator` folder in this repo.
 2021-05-27 | FastAPI | Go to the `fastapi` folder in this repo.
