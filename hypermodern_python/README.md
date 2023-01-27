@@ -106,6 +106,15 @@ More in [the article](https://cjolowicz.github.io/posts/hypermodern-python-03-li
 
 More detail in [the article](https://cjolowicz.github.io/posts/hypermodern-python-04-typing).
 
+Add it to pre-commit
+```yaml
+# in .pre-commit-config.yaml
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: ''  # Use the sha / tag you want to point at
+    hooks:
+    -   id: mypy
+```
+
 ## Documentation
 
 [The article](https://cjolowicz.github.io/posts/hypermodern-python-05-documentation/) recommends sphinx. Brian prefers []().
