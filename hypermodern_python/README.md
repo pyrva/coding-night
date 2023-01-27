@@ -96,6 +96,8 @@ More in [the article](https://cjolowicz.github.io/posts/hypermodern-python-03-li
 
 - Look for plugins for tools you use: https://pre-commit.com/#plugins
 
+- Install the latest version of each hook via `poetry run pre-commit autoupdate`
+
 - Install the hooks: `poetry run pre-commit install`
 
 - Pre-commit will automagically run your configured tools whenever you attempt to commit anything.
@@ -117,4 +119,4 @@ Add it to pre-commit
 
 ## Documentation
 
-[The article](https://cjolowicz.github.io/posts/hypermodern-python-05-documentation/) recommends sphinx. Brian prefers []().
+[The article](https://cjolowicz.github.io/posts/hypermodern-python-05-documentation/) recommends sphinx. Brian prefers [mkdocs](https://www.mkdocs.org/).
